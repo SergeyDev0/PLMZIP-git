@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+  
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Futura PT"),
+        url("/FuturaPT-Light.ttf") format("ttf"),
+        url("/FuturaPT-Light.woff2") format("woff2"),
+        url("/FuturaPT-Light.woff") format("woff");
+}
+@font-face {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+  
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local('Futura PT'),
+        url("/fonts/FuturaPT-Book.ttf") format("ttf"),
+        url("/fonts/FuturaPT-Book.woff") format("woff2"),
+        url("/fonts/FuturaPT-Book.woff2") format("woff");
+}
