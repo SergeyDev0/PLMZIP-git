@@ -14,6 +14,12 @@ a{
     color: black;
     text-decoration: none;
 }
+button{
+    background-color: inherit;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
 header{
     width: 100%;
     height: auto;
@@ -125,6 +131,7 @@ input:focus {
     color: inherit;
 	border: none;
     background-color: #F2F3F7;
+    cursor: pointer;
 }
 .header__nav__info__phone{
     margin-right: 6%;
