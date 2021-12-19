@@ -221,17 +221,105 @@ input:focus {
 }
 .breadcrumb-item{
     padding: 0 10px;
-    border-right: solid 1px blue;
+    border-right: solid 1px #C5DEF0;
 }
-.breadcrumbs-item:last-child{
+.breadcrumb-item > a{
+    color: #C5DEF0;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+.breadcrumb-item > a:hover{
+    color: #2083C4;
+}
+.breadcrumb-item:last-child{
     padding-right: 0;
     border: 0;
 }
-.breadcrumbs-item:first-child{
+.breadcrumb-item:first-child{
     padding-left: 0;
 }
 .catalog-card__title{
-    margin-top: 2%;
+    margin: 2% 0;
+}
+.catalog-card__info__wrapper-imgs{
+    display: flex;
+    height: 45vh;
+}
+.catalog-card__column-imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+.catalog-card__main-img-wrapper{
+    height: 45vh;
+}
+.big__main-img{
+    height: 100%;
+}
+.small__column-img__link{
+    background-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #F2F3F7;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+.small__column-img__link:hover{
+    background-color: #F2F3F7;
+}
+.small__column-img__link > img{
+    height: 100%;
+}
+.catalog-card__info{
+    display: flex;
+}
+.catalog-card__specifiacations{
+    width: 20%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.specifications__article-number{
+    color: #90C1E1;
+}
+.specifications__span{
+    font-weight: bold;
+}
+.choice-text{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.choice-btns{
+    width: 100%;
+    display: flex;
+}
+.choise-button{
+    padding: 7px 0;
+    text-align: center;
+    width: 140px;
+    color: white;
+    background-color: #0071BC;
+    margin-right: 2%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
 }
 @media screen and (max-width: 1320px){
 
